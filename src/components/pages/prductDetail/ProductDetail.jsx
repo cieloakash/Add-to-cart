@@ -18,9 +18,9 @@ const ProductDetail = () => {
   return (
     <>
       <div className="product-detail">
-        <div>
+        <div className="link">
+        <Link to="/">Back to Home</Link>
           <Link to='/cart'>Cart:{Object.keys(cart).length}</Link>
-          <Link to="/store">Back to Home</Link>
         </div>
         <div className="product-header">
           <img src={singleProduct.thumbnail} alt={singleProduct.title} />

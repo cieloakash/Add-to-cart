@@ -1,9 +1,8 @@
-import { useEffect, useState } from 'react'
+
 
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AppLayout from './components/AppLayout'
-import Home from './components/Home'
 import ProductListing from './components/pages/ProductListing'
 import ProductDetail from './components/pages/prductDetail/ProductDetail'
 import Cart from './components/pages/cart/Cart'
@@ -16,12 +15,10 @@ function App() {
   {
     element:<AppLayout/>,
     children:[
+     
       {
         path:'/',
-        element:<Home/>
-      },
-      {
-        path:'/store',
+        default:true,
         element:<ProductListing/>
       },
       {
