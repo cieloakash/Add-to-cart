@@ -1,0 +1,152 @@
+
+  /* Product Detail Wrapper */
+  .product-detail {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Back to Home Link */
+  .product-detail a {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
+  .product-detail a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Product Header */
+  .product-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .product-header img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product Content */
+  .product-info {
+    text-align: center;
+  }
+  
+  .product-info h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .product-info strong {
+    color: #222;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .product-detail {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .product-header {
+      flex: 1;
+    }
+  
+    .product-info {
+      flex: 2;
+      text-align: left;
+    }
+  }
+
+  .buy-now-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Reviews Container */
+.reviews-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Reviews Header */
+  .reviews-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Individual Review Card */
+  .review-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-card h3 {
+    font-size: 1.2rem;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .review-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .review-card strong {
+    color: #222;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .reviews-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .review-card {
+      width: 80%; /* Center and adjust width for larger screens */
+    }
+  }
+  
